@@ -2,9 +2,9 @@
 
 import styles from "./Header.module.scss";
 
-const Header = () => (
+const Header = props => (
   <div className={styles.Header}>
-    liam mcroe.
+    {props.appTitle}
   </div>
 );
 
