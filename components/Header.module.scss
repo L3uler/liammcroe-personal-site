@@ -18,13 +18,20 @@
 
   background: $highlight;
 
-  a {
-    color: inherit;
+  a{
+    color: $on-secondary-dark;
     text-decoration: none;
+  }
+
+  a:hover{
+    color: $on-secondary;
+  }
+
+  .LinkIcon {
     margin-left: 10px;
   }
 
-  .Buttons {
+  .LinkIconBlock {
     justify-self: flex-end;
     margin-left: auto;
     margin-right: 5px;

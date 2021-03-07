@@ -14,10 +14,13 @@ const Header = props => (
     <div className={styles.Typewriter}>
       {props.appTitle}
     </div>
-    <div className={styles.Buttons}>
+    <div className={styles.LinkIconBlock}>
+      <span className={styles.LinkIcon}>
       <a href="https://github.com/L3uler"><FontAwesomeIcon icon={faGithubSquare} /></a>
-
+      </span>
+      <span className={styles.LinkIcon}>
       <a href="https://www.linkedin.com/in/liammcroe/"><FontAwesomeIcon icon={faLinkedin} /></a>
+      </span>
     </div>
 
   </div>
