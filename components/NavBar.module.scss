@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  bottom: 0;
 
   height: 60px;
   width: 100%;
@@ -25,6 +27,6 @@
   }
 
   .active {
-    color: $highlight;
+    color: $on-secondary;
   }
 }

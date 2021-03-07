@@ -9,6 +9,7 @@ const NavBar = props => (
   <div className={styles.NavBar}>
     {props.navButtons.map(button => (
     <NavButton
+      active = {styles.active}
       key={button.path}
       path={button.path}
       label={button.label}

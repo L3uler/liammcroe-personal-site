@@ -1,3 +1,5 @@
+@import "../theme/theme";
+
 .NavButton {
     display: flex;
     flex-direction: column;
@@ -15,4 +17,5 @@
     .Label {
       font-size: 12px;
     }
+    
   }
