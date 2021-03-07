@@ -8,6 +8,7 @@ const SocialButtonGroup = props => (
     <div className={styles.SocialButtonGroup}>
         {props.socialButtons.map(button => (
             <SocialButton
+                key={button.path}
                 path={button.path}
                 icon={button.icon}
             />
