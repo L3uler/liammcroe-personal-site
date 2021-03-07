@@ -5,7 +5,8 @@ import NavBar from "./NavBar";
 
 import styles from "./Layout.module.scss";
 
-import navButtons from "../config/buttons";
+import navButtons from "../config/navbarButtons";
+import socialButtons from "../config/socialButtons";
 
 
 const Layout = props => {
@@ -20,13 +21,13 @@ const Layout = props => {
         <meta charSet="utf-8" />
       </Head>
 
-      <Header appTitle={appTitle} />
+      <Header appTitle={appTitle} socialButtons={socialButtons}/>
 
       <div className={styles.Content}>
         {props.children}
       </div>
 
-      <NavBar navButtons = {navButtons}/>
+      <NavBar navButtons={navButtons}/>
 
     </div>
   );
