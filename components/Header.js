@@ -16,10 +16,10 @@ const Header = props => (
     </div>
     <div className={styles.LinkIconBlock}>
       <span className={styles.LinkIcon}>
-      <a href="https://github.com/L3uler"><FontAwesomeIcon icon={faGithubSquare} /></a>
+      <a href="https://github.com/L3uler" target="_blank"><FontAwesomeIcon icon={faGithubSquare} /></a>
       </span>
       <span className={styles.LinkIcon}>
-      <a href="https://www.linkedin.com/in/liammcroe/"><FontAwesomeIcon icon={faLinkedin} /></a>
+      <a href="https://www.linkedin.com/in/liammcroe/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
       </span>
     </div>
 
