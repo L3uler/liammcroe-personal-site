@@ -15,9 +15,12 @@
     display: flex;
     align-items: center;
     flex-direction: inherit;
-
+    
     width: 100%;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 65px;
+    padding-bottom: 75px;
 
     background: $secondary;
     color: $on-secondary;
