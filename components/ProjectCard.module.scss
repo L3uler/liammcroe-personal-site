@@ -1,0 +1,32 @@
+// components/ProjectCard.module.scss
+
+@import "../theme/theme";
+
+.ProjectCard {
+    border-style: solid;
+    border-color: $on-secondary;
+    border-radius: 10px; /* 5px rounded corners */
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: .5rem .5em;
+
+    @media screen and (min-width: 40em) {
+        flex: 0 1 calc(50%);
+        max-width: calc(50% - 1em);
+    }
+
+    @media screen and (min-width: 60em) {
+        flex: 0 1 calc(25%);
+        max-width: calc(25% - 1em);
+    }
+
+    .container {
+
+        padding: 2px 16px;
+        .CardContent {
+            
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}

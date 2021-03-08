@@ -1,4 +1,4 @@
-// components/SocialButtonGroup.js
+// components/Header/SocialButtonGroup.js
 
 import SocialButton from "./SocialButton";
 
