@@ -13,14 +13,15 @@
   .Content {
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: inherit;
 
     width: 100%;
+    padding: 25px;
 
     background: $secondary;
     color: $on-secondary;
-    font-family: $core-font;
+    font-family: $core-font; 
 
     a {
       color: inherit;

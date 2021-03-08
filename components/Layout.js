@@ -1,7 +1,7 @@
 import Head from "next/head";
 
-import Header from "./Header";
-import NavBar from "./NavBar";
+import Header from "./Header/Header";
+import NavBar from "./NavBar/NavBar";
 
 import styles from "./Layout.module.scss";
 
@@ -22,7 +22,7 @@ const Layout = props => {
       </Head>
 
       <Header appTitle={appTitle} socialButtons={socialButtons}/>
-
+      
       <div className={styles.Content}>
         {props.children}
       </div>

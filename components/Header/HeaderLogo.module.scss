@@ -1,8 +1,9 @@
 // components/HeaderLogo.module.scss
 
-@import "../theme/theme";
+@import "../../theme/theme";
 
 .HeaderLogo {
+  flex: 0 1 auto; 
   align-items: center;
   justify-content: flex-start;
 
@@ -12,7 +13,13 @@
     white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
+      typing 0.75s steps(11,end),
       blink-caret .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {width: 0}
+    to {width: 100%}
   }
 
   /* The typewriter cursor effect */
