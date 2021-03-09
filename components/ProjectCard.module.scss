@@ -10,13 +10,15 @@
     box-sizing: border-box;
     margin: .5rem .5em;
 
+    @media screen and (min-width: 20em) {
+        max-width: calc(100% - 1em);
+    }
+
     @media screen and (min-width: 40em) {
-        flex: 0 1 calc(50%);
         max-width: calc(50% - 1em);
     }
 
     @media screen and (min-width: 60em) {
-        flex: 0 1 calc(25%);
         max-width: calc(25% - 1em);
     }
 
