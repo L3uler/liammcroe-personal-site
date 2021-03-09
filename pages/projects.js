@@ -1,7 +1,7 @@
-// pages/nearme.js
-
-import ProjectCardGroup from "../components/ProjectCardGroup";
+// pages/project.js
 import Layout from "../components/Layout";
+
+import ProjectCardGroup from "../components/PageSpecific/Projects/ProjectCardGroup";
 
 import projectCards from "../config/projectCards";
 

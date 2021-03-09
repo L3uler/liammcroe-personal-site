@@ -2,28 +2,15 @@
 
 import Layout from "../components/Layout";
 
+import ProfileImage from "../components/PageSpecific/Index/ProfileImage";
+
+
 const Index = () =>
     <Layout>
-        <h1>liam mcroe.</h1>
-        <h2>this is an h2 tag</h2>
+        <h1>Liam McRoe</h1>
 
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-        <p> this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph</p>
-
+        <ProfileImage imageSource={`/images/poppy.jpg`}/>
+        <h2>Software developer based in Edinburgh, Scotland.</h2>
 
     </Layout>;
 

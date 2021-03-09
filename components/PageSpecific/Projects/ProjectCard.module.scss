@@ -1,6 +1,6 @@
-// components/ProjectCard.module.scss
+// components/PageSpecific/Project/ProjectCard.module.scss
 
-@import "../theme/theme";
+@import "../../../theme/theme";
 
 .ProjectCard {
     border-style: solid;
@@ -19,20 +19,38 @@
     }
 
     @media screen and (min-width: 60em) {
+        max-width: calc(33% - 1em);
+    }
+
+    @media screen and (min-width: 80em) {
         max-width: calc(25% - 1em);
     }
 
     .container {
-
         padding: 2px 16px;
+
+        .CardHeader{
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .CardTitle{
+                justify-content: flex-start;
+            }
+            .CardLinks{
+                color: $logo;
+                justify-content: flex-end;
+            }
+        }
+
         .CardContent {
             
             text-overflow: ellipsis;
             overflow: hidden;
+            a {
+                color: $logo;
+            }
         }
 
-        img{
-            max-height: 10%;
-        }
     }
 }

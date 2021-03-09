@@ -1,0 +1,31 @@
+// components/PageSpecific/Index/ProfileImage.module.scss
+
+@import "../../../theme/theme";
+
+.ProfileImage {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    img{
+        border-radius: 50%;
+        border-style: solid;
+        border-color: $on-secondary;
+
+    
+        @media screen and (min-width: 20em) {
+            width: 80%
+        }
+    
+        @media screen and (min-width: 50em) {
+            width: 50%
+        }
+    
+        
+        @media screen and (min-width: 80em) {
+            width: 30%;        
+        }
+    }
+    
+}

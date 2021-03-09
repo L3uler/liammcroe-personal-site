@@ -1,4 +1,4 @@
-// components/ProjectCardGroup.js
+// components/PageSpecific/Project/ProjectCardGroup.js
 
 import ProjectCard from "./ProjectCard";
 
