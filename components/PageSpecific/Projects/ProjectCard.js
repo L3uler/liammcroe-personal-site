@@ -1,12 +1,12 @@
-// components/PageSpecific/Project/ProjectCard.js
+// components/PageSpecific/Projects/ProjectCard.js
 
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = (props) => {
     return (
         <div className={styles.ProjectCard}>
+            <img src={props.image} />
             <div className={styles.container}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
                 <div className={styles.CardHeader}>
                     <div className={styles.CardTitle}>
                         <h4>{props.title}</h4>

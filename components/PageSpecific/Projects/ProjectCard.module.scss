@@ -1,4 +1,4 @@
-// components/PageSpecific/Project/ProjectCard.module.scss
+// components/PageSpecific/Projects/ProjectCard.module.scss
 
 @import "../../../theme/theme";
 
@@ -26,8 +26,15 @@
         max-width: calc(25% - 1em);
     }
 
+    img {
+        flex: inherit;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        max-width: 100%;
+    }
+
     .container {
-        padding: 2px 16px;
+        padding: 0px 15px;
 
         .CardHeader{
             
@@ -45,8 +52,7 @@
 
         .CardContent {
             
-            text-overflow: ellipsis;
-            overflow: hidden;
+            padding-bottom: 10px;
             a {
                 color: $logo;
             }

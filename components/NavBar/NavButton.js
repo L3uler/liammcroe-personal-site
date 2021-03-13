@@ -1,4 +1,4 @@
-// components/NavButton.js
+// components/NavBar/NavButton.js
 
 import Link from "next/link";
 import { useRouter } from "next/router";

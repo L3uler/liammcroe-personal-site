@@ -1,4 +1,4 @@
-// components/NavBar.js
+// components/NavBar/NavBar.js
 
 import NavButton from "./NavButton";
 

@@ -1,4 +1,4 @@
-// components/HeaderLogo.js
+// components/Header/HeaderLogo.js
 
 import styles from "./HeaderLogo.module.scss";
 

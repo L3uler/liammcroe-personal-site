@@ -1,4 +1,4 @@
-// components/Header.js
+// components/Header/Header.js
 
 import HeaderLogo from "./HeaderLogo";
 import SocialButtonGroup from "./SocialButtonGroup";

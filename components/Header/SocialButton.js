@@ -1,4 +1,4 @@
-// components/SocialButton.js
+// components/Header/SocialButton.js
 
 import styles from "./SocialButton.module.scss";
 

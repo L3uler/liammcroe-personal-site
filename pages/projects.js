@@ -8,7 +8,6 @@ import projectCards from "../config/projectCards";
 const ProjectsView = (props) => (
     <Layout>
         <ProjectCardGroup projectCards={projectCards} />
-
     </Layout>
 );
 

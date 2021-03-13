@@ -1,4 +1,4 @@
-// components/PageSpecific/Project/ProjectCardGroup.js
+// components/PageSpecific/Projects/ProjectCardGroup.js
 
 import ProjectCard from "./ProjectCard";
 
@@ -11,6 +11,7 @@ const ProjectCardGroup = props => (
                 key={card.title}
                 title={card.title}
                 content={card.content}
+                image={card.image}
             />
         ))}
     </div>
