@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
             <div className={styles.container}>
                 <div className={styles.CardHeader}>
                     <div className={styles.CardTitle}>
-                        <h4>{props.title}</h4>
+                        <h3>{props.title}</h3>
                     </div>
                     <div className={styles.CardLinks}>
                         <a href={`https://google.com`}>Google</a>
