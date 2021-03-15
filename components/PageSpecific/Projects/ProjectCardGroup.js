@@ -6,12 +6,13 @@ import styles from "./ProjectCardGroup.module.scss";
 
 const ProjectCardGroup = props => (
     <div className={styles.ProjectCardGroup}>
-        {props.projectCards.map(card => (
+        {props.projectCards.map((card, index) => (
             <ProjectCard
-                key={card.title}
+                key={index}
                 title={card.title}
                 content={card.content}
                 image={card.image}
+                cardLinks={card.cardLinks}
             />
         ))}
     </div>

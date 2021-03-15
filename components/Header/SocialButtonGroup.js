@@ -6,11 +6,12 @@ import styles from "./SocialButtonGroup.module.scss";
 
 const SocialButtonGroup = props => (
     <div className={styles.SocialButtonGroup}>
-        {props.socialButtons.map(button => (
+        {props.socialButtons.map((button, index) => (
             <SocialButton
-                key={button.path}
+                key={index}
                 path={button.path}
                 icon={button.icon}
+                mouseover={button.mouseover}
             />
         ))}
     </div>

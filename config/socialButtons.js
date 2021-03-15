@@ -11,12 +11,14 @@ const socialButtons = [
     {
         label: "github",
         path: "https://github.com/L3uler",
-        icon: <FontAwesomeIcon icon={faGithubSquare} />
+        icon: <FontAwesomeIcon icon={faGithubSquare} />,
+        mouseover: "Find me on GitHub"
     },
     {
         label: "linkedin",
         path: "https://www.linkedin.com/in/liammcroe/",
-        icon: <FontAwesomeIcon icon={faLinkedin} />
+        icon: <FontAwesomeIcon icon={faLinkedin} />,
+        mouseover: "Find me on LinkedIn"
     }
 ];
 

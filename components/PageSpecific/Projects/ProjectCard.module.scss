@@ -5,7 +5,7 @@
 .ProjectCard {
     border-style: solid;
     border-color: $on-secondary;
-    border-width: 2px;
+    border-width: 1.5px;
     border-radius: 10px; /* 5px rounded corners */
     flex: 1 0 500px;
     box-sizing: border-box;
@@ -16,15 +16,12 @@
     }
 
     @media screen and (min-width: 40em) {
-        max-width: calc(50% - 1em);
+        max-width: calc(100% - 1em);
     }
 
     @media screen and (min-width: 60em) {
-        max-width: calc(33% - 1em);
-    }
-
-    @media screen and (min-width: 80em) {
-        max-width: calc(25% - 1em);
+        flex: inherit;
+        max-width: calc(50% - 1em);
     }
 
     img {
@@ -45,10 +42,7 @@
             .CardTitle{
                 justify-content: flex-start;
             }
-            .CardLinks{
-                color: $logo;
-                justify-content: flex-end;
-            }
+            
         }
 
         .CardContent {
@@ -58,6 +52,12 @@
             a {
                 color: $logo;
             }
+        }
+
+        .CardLinks{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
 
     }

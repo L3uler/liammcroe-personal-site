@@ -10,17 +10,17 @@ import {
 
 const navButtons = [
     {
-        label: "home",
+        label: "Home",
         path: "/",
         icon: <FontAwesomeIcon icon={faHome} />
     },
     {
-        label: "about",
+        label: "About",
         path: "/about",
         icon: <FontAwesomeIcon icon={faInfoCircle} />
     },
     {
-        label: "projects",
+        label: "Projects",
         path: "/projects",
         icon: <FontAwesomeIcon icon={faCode} />
     }
