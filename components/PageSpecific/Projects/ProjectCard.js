@@ -13,6 +13,14 @@ const ProjectCard = (props) => {
 
             <div className={styles.container}>
 
+                <div className={styles.CardHeader}>
+                    <h3>{props.title}</h3>
+                </div>
+
+                <div className={styles.CardContent}>
+                    {props.content}
+                </div>
+
                 <div className={styles.CardLinks}>
                     {props.cardLinks.map((cardLink, index) => (
 
@@ -20,15 +28,6 @@ const ProjectCard = (props) => {
                             <Button className={styles.LinkButton}>{cardLink.label}</Button>
                         </a>
                     ))}
-                </div>
-                <div className={styles.CardHeader}>
-                    <div className={styles.CardTitle}>
-                        <h3>{props.title}</h3>
-                    </div>
-                </div>
-
-                <div className={styles.CardContent}>
-                    {props.content}
                 </div>
 
             </div>

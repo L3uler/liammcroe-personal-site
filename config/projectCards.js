@@ -3,9 +3,14 @@
 const projectCards = [
     {
         title: "BottleService",
-        content: "This is a lightweight .NET 5 microservice I wrote for a Whisky and Wine cellar management app. The service follows the ports and adapter pattern, exposing an ASP.NET Core REST API and using MongoDB for storage. It also uses a bunch of popular .NET libraries to do validation, mapping, and a bunch of other stuff. It allows clients to perform CRUD operations on Bottle resources, the central domain entity for the application. The service has been containerised with Docker for ease of development and deployment. I've uploaded it to my GitHub as a bit of a sample, to showcase a backend service that I architected and built using a range of modern technologies. Feel free to dig into the code.",
+        content: "This is a lightweight .NET 5 microservice I wrote for a Whisky and Wine cellar management app. The service follows the ports and adapter pattern, exposing an ASP.NET Core REST API and using MongoDB for storage. It also uses some popular .NET libraries to do validation, mapping, and a bunch of other stuff. It allows clients to perform CRUD operations on Bottle resources, the central domain entity for the application. The service has been containerised with Docker for ease of development and deployment. I've uploaded it to my GitHub as a bit of a sample, to showcase a backend service that I architected and built using a range of modern technologies. Feel free to dig into the code.",
         image: "/images/BottleService.jpg",
         cardLinks: [
+            {
+                link: "https://github.com/L3uler/bottle-service",
+                mouseover: "View code on GitHub",
+                label: "View code "
+            },
             {
                 link: "https://github.com/L3uler/bottle-service",
                 mouseover: "View code on GitHub",
@@ -30,7 +35,11 @@ const projectCards = [
         content: "A lightweight .NET 5 microservice I wrote for an alcohol collection management app. The service follows the ports and adapter pattern, exposing an ASP.NET Core REST API and using MongoDB for storage. It allows clients to perform CRUD operations on Bottle resources, the central domain entity for the app. The service has been containerised with Docker.",
         image: "/images/BottleService.jpg",
         cardLinks: [
-            
+            {
+                link: "https://github.com/L3uler/bottle-service",
+                mouseover: "View code on GitHub",
+                label: "View code "
+            }
         ]
     },
     {
@@ -38,7 +47,33 @@ const projectCards = [
         content: "This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content.",
         image: "/images/PersonalSite.jpg",
         cardLinks: [
-           
+            {
+                link: "https://github.com/L3uler/bottle-service",
+                mouseover: "View code on GitHub",
+                label: "View code "
+            },
+            {
+                link: "https://github.com/L3uler/bottle-service",
+                mouseover: "View code on GitHub",
+                label: "View code "
+            }
+        ]
+    },
+    {
+        title: "This Site",
+        content: "This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content. This is the content.",
+        image: "/images/PersonalSite.jpg",
+        cardLinks: [
+            {
+                link: "https://github.com/L3uler/bottle-service",
+                mouseover: "View code on GitHub",
+                label: "View code "
+            },
+            {
+                link: "https://github.com/L3uler/bottle-service",
+                mouseover: "View code on GitHub",
+                label: "View code "
+            }
         ]
     }
 ];
