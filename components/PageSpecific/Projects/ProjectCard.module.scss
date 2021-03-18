@@ -104,6 +104,15 @@
                 transition: 0.1ms;
             }
         }
+        .TechTags{
+            margin-top: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding-bottom: 0.5em;
+            padding-left: 0.7em;
+            padding-right: 0.7em;
+        }
     }
 
    

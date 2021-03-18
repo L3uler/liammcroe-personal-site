@@ -13,6 +13,7 @@ const ProjectCardGroup = props => (
                 content={card.content}
                 image={card.image}
                 cardLinks={card.cardLinks}
+                technologies={card.technologies}
             />
         ))}
     </div>

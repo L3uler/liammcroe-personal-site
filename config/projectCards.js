@@ -11,6 +11,12 @@ const projectCards = [
                 mouseover: "View code on GitHub",
                 label: "View code "
             }
+        ],
+        technologies: [
+            "ASP.NET Core",
+            "C#",
+            "MongoDB",
+            "Docker"
         ]
     },
     {
@@ -23,6 +29,12 @@ const projectCards = [
                 mouseover: "View code on GitHub",
                 label: "View code"
             }
+        ],
+        technologies: [
+            "Next.js",
+            "React",
+            "CSS",
+            "JavaScript"
         ]
     }
 ];

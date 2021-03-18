@@ -1,7 +1,6 @@
 // components/PageSpecific/Projects/ProjectCard.js
-import { Button } from "reactstrap";
 
-import CardLink from "./CardLink";
+import TechnologyTag from "./TechnologyTag";
 
 import styles from "./ProjectCard.module.scss";
 
@@ -24,10 +23,16 @@ const ProjectCard = (props) => {
                 <div className={styles.CardLinks}>
                     {props.cardLinks.map((cardLink, index) => (
                         <div key={index} className={styles.LinkButton} title={cardLink.mouseover}>
-                        <a href={cardLink.link} target="_blank">
-                            {cardLink.label}
-                        </a>
+                            <a href={cardLink.link} target="_blank">
+                                {cardLink.label}
+                            </a>
                         </div>
+                    ))}
+                </div>
+
+                <div className={styles.TechTags}>
+                    {props.technologies.map((technology, index) => (
+                        <TechnologyTag key={index}>{technology}</TechnologyTag>
                     ))}
                 </div>
 
