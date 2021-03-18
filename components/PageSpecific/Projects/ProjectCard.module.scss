@@ -44,32 +44,34 @@
         display: flex;
         flex-direction: column;
         align-content: space-between;
-        padding: 0px 15px;
         height: 100%;
 
         .CardHeader{
-            
             display: flex;
             justify-content: space-between;
+            padding: 0px 15px;
         }
 
         .CardContent {
             color: $on-secondary-dark;
             flex: auto;
-            padding-bottom: 10px;
+            padding: 0px 15px 10px 15px;
             a {
                 color: $logo;
             }
         }   
         .CardLinks{
             margin-top: auto;
+            margin-bottom: 0.6em;
             display: flex;
-            justify-content: space-around;          
+            justify-content: space-around;      
             width: 100%;  
     
             .LinkButton{
-                flex:1;
                 
+                display: inherit;
+                justify-content: inherit;    
+
                 background-color: inherit;
                 color: $logo;
 
@@ -77,17 +79,24 @@
                 font-size: inherit;
                 text-align: center;
 
-                padding: 10px 60px;
                 border: 2px solid $logo;
                 border-radius: 5px;
-
-                margin: 10px;
+                width: 100%;
+                height: 2.5em;
+                margin-left: 0.5em;
+                margin-right: 0.5em;
 
                 cursor: pointer;
+
+                a{
+                    align-self: center;
+                    text-decoration: none;
+                }
             }
 
             .LinkButton:hover{
-                transform:scale(1.1);
+                background-color: $logo;
+                color: $highlight;
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
                 transition: 0.1ms;
             }

@@ -23,10 +23,11 @@ const ProjectCard = (props) => {
 
                 <div className={styles.CardLinks}>
                     {props.cardLinks.map((cardLink, index) => (
-
-                        <a key={index} href={cardLink.link} title={cardLink.mouseover} target="_blank">
-                            <Button className={styles.LinkButton}>{cardLink.label}</Button>
+                        <div key={index} className={styles.LinkButton} title={cardLink.mouseover}>
+                        <a href={cardLink.link} target="_blank">
+                            {cardLink.label}
                         </a>
+                        </div>
                     ))}
                 </div>
 
