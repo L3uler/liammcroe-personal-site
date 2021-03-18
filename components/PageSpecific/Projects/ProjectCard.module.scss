@@ -15,7 +15,7 @@
 
     height: auto;
     box-sizing: border-box;
-    margin: 1em .5em;
+    margin: 10px 7px;
     box-shadow: 0 .5em 1em 0 rgba(0, 0, 0, 0.5);
     transition: 0.15s;
 
@@ -64,9 +64,12 @@
         .CardLinks{
             margin-top: auto;
             display: flex;
-            justify-content: space-around;            
+            justify-content: space-around;          
+            width: 100%;  
     
             .LinkButton{
+                flex:1;
+                
                 background-color: inherit;
                 color: $logo;
 
@@ -75,6 +78,7 @@
                 text-align: center;
 
                 height: 50px;
+                width: auto;
                 padding: 0 60px;
                 border: 2px solid $logo;
                 border-radius: 5px;
