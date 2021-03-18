@@ -55,6 +55,7 @@
         .CardContent {
             color: $on-secondary-dark;
             flex: auto;
+            margin-bottom: 0.7em;
             padding: 0px 15px 10px 15px;
             a {
                 color: $logo;
@@ -62,7 +63,9 @@
         }   
         .CardLinks{
             margin-top: auto;
-            margin-bottom: 0.6em;
+            padding-bottom: 1em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
             display: flex;
             justify-content: space-around;      
             width: 100%;  
