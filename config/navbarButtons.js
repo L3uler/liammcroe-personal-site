@@ -15,11 +15,6 @@ const navButtons = [
         icon: <FontAwesomeIcon icon={faHome} />
     },
     {
-        label: "About",
-        path: "/about",
-        icon: <FontAwesomeIcon icon={faInfoCircle} />
-    },
-    {
         label: "Projects",
         path: "/projects",
         icon: <FontAwesomeIcon icon={faCode} />
