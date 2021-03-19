@@ -10,11 +10,6 @@ const projectCards = [
                 link: "https://github.com/L3uler/bottle-service",
                 mouseover: "View code on GitHub",
                 label: "View code "
-            },
-            {
-                link: "https://github.com/L3uler/bottle-service",
-                mouseover: "View code on GitHub",
-                label: "View code "
             }
         ],
         technologies: [
