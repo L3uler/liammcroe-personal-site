@@ -3,7 +3,7 @@
 const projectCards = [
     {
         title: "BottleService",
-        content: "This is a microservice I wrote for a Whisky and Wine cellar management app. It is written in C# using ASP.NET Core in .NET 5, MongoDB for storage, and Docker for containerisation. The service allows clients to perform CRUD operations on \'Bottle\' resources, the central domain entities for the application, via an exposed REST API. I uploaded it to my GitHub to showcase a backend service that I architected and built using a range of modern technologies. Feel free to dig into the code.",
+        content: "This is a microservice I wrote for a Whisky and Wine cellar management app. It is written in C# using ASP.NET Core for .NET 5, MongoDB for storage, and Docker for containerisation. The service allows clients to perform CRUD operations on \'Bottle\' resources, the central domain entities for the application, via an exposed REST API. I uploaded it to my GitHub to showcase a backend service that I architected and built using a range of modern technologies. Feel free to dig into the code.",
         image: "/images/BottleService.jpg",
         cardLinks: [
             {
