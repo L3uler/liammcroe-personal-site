@@ -8,18 +8,18 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    margin: 0px 10px;
+    margin: 0 1em;
 
     img{
-        max-width: 300px;
+        max-width: 19em;
         border-radius: 50%;
         border-style: solid;
         border-color: $on-secondary;
-        margin: 40px 20px;
+        margin: 2em 1em;
     }
 
     .ProfileTitle{
-        max-width: 500px;
+        max-width: 30em;
 
         h2 {
             color: $on-secondary-dark;
